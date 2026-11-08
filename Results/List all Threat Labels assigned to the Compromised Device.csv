@@ -1,0 +1,5 @@
+device,threatLabel
+http://example.org/iot#IP_192_168_100_111,DDoS
+http://example.org/iot#IP_192_168_100_111,Okiru
+http://example.org/iot#IP_192_168_100_111,PartOfAHorizontalPortScan
+http://example.org/iot#IP_192_168_100_111,C&C-HeartBeat
