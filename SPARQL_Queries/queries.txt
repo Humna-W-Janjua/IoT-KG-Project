@@ -1,0 +1,57 @@
+#q1
+PREFIX iot: <http://example.org/iot#>
+SELECT ?destinationNode ?port ?protocol
+WHERE {
+    iot:IP_192_168_100_111 iot:connectsTo ?destinationNode .
+    ?destinationNode iot:hasPort ?port ;
+                     iot:hasProtocol ?protocol .
+}
+LIMIT 20
+
+#q2
+PREFIX iot: <http://example.org/iot#>
+SELECT ?port (COUNT(?destinationNode) AS ?targetCount)
+WHERE {
+    ?sourceDevice iot:connectsTo ?destinationNode .
+    ?destinationNode iot:hasPort ?port .
+}
+GROUP BY ?port
+ORDER BY DESC(?targetCount)
+
+#q3
+PREFIX iot: <http://example.org/iot#>
+SELECT ?sourceDevice ?destinationNode ?threatLabel
+WHERE {
+    ?sourceDevice a iot:Device ;
+                  iot:connectsTo ?destinationNode .
+    ?destinationNode iot:hasPort ?port .
+    FILTER(?port = "52869")
+    OPTIONAL { ?sourceDevice iot:hasThreatLabel ?threatLabel }
+}
+LIMIT 20
+
+#q4
+PREFIX iot: <http://example.org/iot#>
+SELECT ?destinationNode ?port
+WHERE {
+    ?sourceDevice iot:connectsTo ?destinationNode .
+    ?destinationNode iot:hasPort ?port .
+    { FILTER(?port = "8080") }
+    UNION
+    { FILTER(?port = "80") }
+}
+
+#q5
+PREFIX iot: <http://example.org/iot#>
+SELECT ?device ?threatLabel
+WHERE {
+    ?device iot:hasThreatLabel ?threatLabel .
+}
+
+#q6
+PREFIX iot: <http://example.org/iot#>
+SELECT (COUNT(?destinationNode) AS ?totalMaliciousConnections)
+WHERE {
+    ?sourceDevice iot:hasThreatLabel "Okiru" ;
+                  iot:connectsTo ?destinationNode .
+}
