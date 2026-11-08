@@ -1,0 +1,1003 @@
+@prefix ns1: <http://example.org/iot#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:IP_192_168_100_111 a ns1:Device ;
+    ns1:connectsTo ns1:IP_103_201_76_130,
+        ns1:IP_107_73_57_16,
+        ns1:IP_110_221_33_139,
+        ns1:IP_119_128_176_63,
+        ns1:IP_126_242_202_163,
+        ns1:IP_130_170_10_47,
+        ns1:IP_130_71_39_166,
+        ns1:IP_133_85_170_65,
+        ns1:IP_134_123_95_61,
+        ns1:IP_136_70_248_180,
+        ns1:IP_138_212_24_120,
+        ns1:IP_142_53_75_147,
+        ns1:IP_142_57_21_177,
+        ns1:IP_145_171_82_136,
+        ns1:IP_149_195_223_38,
+        ns1:IP_150_14_179_137,
+        ns1:IP_150_254_215_26,
+        ns1:IP_151_255_180_215,
+        ns1:IP_152_84_7_111,
+        ns1:IP_156_101_65_93,
+        ns1:IP_156_101_82_95,
+        ns1:IP_156_108_212_51,
+        ns1:IP_156_116_74_12,
+        ns1:IP_156_11_118_160,
+        ns1:IP_156_123_14_183,
+        ns1:IP_156_128_75_213,
+        ns1:IP_156_129_77_114,
+        ns1:IP_156_140_199_111,
+        ns1:IP_156_162_121_170,
+        ns1:IP_156_165_171_92,
+        ns1:IP_156_16_1_112,
+        ns1:IP_156_176_163_6,
+        ns1:IP_156_184_46_49,
+        ns1:IP_156_190_156_204,
+        ns1:IP_156_192_183_6,
+        ns1:IP_156_195_171_217,
+        ns1:IP_156_197_169_15,
+        ns1:IP_156_198_110_189,
+        ns1:IP_156_205_41_251,
+        ns1:IP_156_213_215_122,
+        ns1:IP_156_219_67_106,
+        ns1:IP_156_21_94_121,
+        ns1:IP_156_220_69_76,
+        ns1:IP_156_228_29_97,
+        ns1:IP_156_228_48_187,
+        ns1:IP_156_233_34_242,
+        ns1:IP_156_23_17_37,
+        ns1:IP_156_249_251_79,
+        ns1:IP_156_31_231_204,
+        ns1:IP_156_37_218_89,
+        ns1:IP_156_42_190_247,
+        ns1:IP_156_46_226_141,
+        ns1:IP_156_47_229_18,
+        ns1:IP_156_56_105_53,
+        ns1:IP_156_59_67_220,
+        ns1:IP_156_78_46_80,
+        ns1:IP_156_91_179_50,
+        ns1:IP_156_95_242_221,
+        ns1:IP_156_99_156_93,
+        ns1:IP_168_210_100_68,
+        ns1:IP_169_118_219_85,
+        ns1:IP_169_159_137_212,
+        ns1:IP_170_207_109_72,
+        ns1:IP_172_129_192_108,
+        ns1:IP_173_36_41_67,
+        ns1:IP_174_93_144_93,
+        ns1:IP_175_19_226_215,
+        ns1:IP_176_224_42_209,
+        ns1:IP_183_42_197_222,
+        ns1:IP_184_242_143_93,
+        ns1:IP_185_198_216_246,
+        ns1:IP_186_149_197_155,
+        ns1:IP_188_93_63_137,
+        ns1:IP_189_75_100_171,
+        ns1:IP_191_60_206_115,
+        ns1:IP_192_225_30_108,
+        ns1:IP_193_88_46_78,
+        ns1:IP_196_157_144_42,
+        ns1:IP_197_105_175_214,
+        ns1:IP_197_109_182_88,
+        ns1:IP_197_118_70_181,
+        ns1:IP_197_129_109_128,
+        ns1:IP_197_129_198_61,
+        ns1:IP_197_134_18_188,
+        ns1:IP_197_139_232_88,
+        ns1:IP_197_142_198_32,
+        ns1:IP_197_14_89_152,
+        ns1:IP_197_158_128_195,
+        ns1:IP_197_159_197_59,
+        ns1:IP_197_199_199_216,
+        ns1:IP_197_203_127_91,
+        ns1:IP_197_211_73_157,
+        ns1:IP_197_213_172_235,
+        ns1:IP_197_22_0_245,
+        ns1:IP_197_236_146_242,
+        ns1:IP_197_240_24_108,
+        ns1:IP_197_249_79_65,
+        ns1:IP_197_24_253_209,
+        ns1:IP_197_37_157_155,
+        ns1:IP_197_40_178_104,
+        ns1:IP_197_50_247_92,
+        ns1:IP_197_52_187_228,
+        ns1:IP_197_54_167_143,
+        ns1:IP_197_65_246_74,
+        ns1:IP_197_71_231_43,
+        ns1:IP_197_85_68_58,
+        ns1:IP_197_85_70_26,
+        ns1:IP_197_90_39_91,
+        ns1:IP_197_91_21_223,
+        ns1:IP_197_96_176_245,
+        ns1:IP_210_77_112_103,
+        ns1:IP_219_48_46_213,
+        ns1:IP_221_81_39_218,
+        ns1:IP_27_131_243_59,
+        ns1:IP_27_207_38_42,
+        ns1:IP_2_80_1_47,
+        ns1:IP_32_178_61_26,
+        ns1:IP_34_250_97_204,
+        ns1:IP_37_215_90_143,
+        ns1:IP_37_54_45_36,
+        ns1:IP_39_65_37_115,
+        ns1:IP_41_109_234_200,
+        ns1:IP_41_110_158_135,
+        ns1:IP_41_113_146_120,
+        ns1:IP_41_113_81_163,
+        ns1:IP_41_114_105_74,
+        ns1:IP_41_117_206_159,
+        ns1:IP_41_119_185_7,
+        ns1:IP_41_132_202_206,
+        ns1:IP_41_157_210_242,
+        ns1:IP_41_163_235_165,
+        ns1:IP_41_163_25_107,
+        ns1:IP_41_164_80_233,
+        ns1:IP_41_172_142_249,
+        ns1:IP_41_175_83_27,
+        ns1:IP_41_17_172_16,
+        ns1:IP_41_186_32_131,
+        ns1:IP_41_187_12_55,
+        ns1:IP_41_188_142_183,
+        ns1:IP_41_192_63_180,
+        ns1:IP_41_196_140_170,
+        ns1:IP_41_206_157_94,
+        ns1:IP_41_207_242_18,
+        ns1:IP_41_213_175_137,
+        ns1:IP_41_213_64_57,
+        ns1:IP_41_214_119_88,
+        ns1:IP_41_215_203_103,
+        ns1:IP_41_216_57_86,
+        ns1:IP_41_21_142_185,
+        ns1:IP_41_224_108_148,
+        ns1:IP_41_226_10_133,
+        ns1:IP_41_226_239_69,
+        ns1:IP_41_227_206_26,
+        ns1:IP_41_234_3_207,
+        ns1:IP_41_236_229_142,
+        ns1:IP_41_240_5_19,
+        ns1:IP_41_244_39_31,
+        ns1:IP_41_251_146_207,
+        ns1:IP_41_252_96_126,
+        ns1:IP_41_25_192_53,
+        ns1:IP_41_36_147_247,
+        ns1:IP_41_42_104_166,
+        ns1:IP_41_42_31_235,
+        ns1:IP_41_45_27_158,
+        ns1:IP_41_49_140_239,
+        ns1:IP_41_49_5_161,
+        ns1:IP_41_52_187_42,
+        ns1:IP_41_56_252_75,
+        ns1:IP_41_63_131_160,
+        ns1:IP_41_75_96_119,
+        ns1:IP_41_7_192_141,
+        ns1:IP_41_80_42_241,
+        ns1:IP_41_8_61_34,
+        ns1:IP_41_95_154_77,
+        ns1:IP_43_254_178_254,
+        ns1:IP_48_16_176_212,
+        ns1:IP_53_179_173_49,
+        ns1:IP_54_255_242_183,
+        ns1:IP_60_0_73_194,
+        ns1:IP_61_22_67_25,
+        ns1:IP_62_37_79_234,
+        ns1:IP_74_43_103_224,
+        ns1:IP_75_239_44_30,
+        ns1:IP_75_68_114_242,
+        ns1:IP_78_186_117_159,
+        ns1:IP_78_1_220_212,
+        ns1:IP_80_105_64_33,
+        ns1:IP_84_109_17_200,
+        ns1:IP_85_247_80_111,
+        ns1:IP_87_13_21_104,
+        ns1:IP_87_230_81_87,
+        ns1:IP_87_61_29_107,
+        ns1:IP_8_255_213_249,
+        ns1:IP_92_229_20_96,
+        ns1:IP_92_27_251_0,
+        ns1:IP_93_59_98_105,
+        ns1:IP_95_46_35_220,
+        ns1:IP_96_12_99_236,
+        ns1:IP_99_110_163_140 ;
+    ns1:hasThreatLabel "DDoS",
+        "Okiru",
+        "PartOfAHorizontalPortScan" .
+
+ns1:IP_103_201_76_130 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_107_73_57_16 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_110_221_33_139 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_119_128_176_63 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_126_242_202_163 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_130_170_10_47 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_130_71_39_166 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_133_85_170_65 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_134_123_95_61 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_136_70_248_180 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_138_212_24_120 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_142_53_75_147 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_142_57_21_177 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_145_171_82_136 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_149_195_223_38 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_150_14_179_137 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_150_254_215_26 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_151_255_180_215 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_152_84_7_111 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_101_65_93 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_101_82_95 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_108_212_51 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_116_74_12 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_11_118_160 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_123_14_183 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_128_75_213 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_129_77_114 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_140_199_111 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_162_121_170 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_165_171_92 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_16_1_112 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_176_163_6 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_184_46_49 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_190_156_204 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_192_183_6 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_195_171_217 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_197_169_15 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_198_110_189 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_205_41_251 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_213_215_122 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_219_67_106 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_21_94_121 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_220_69_76 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_228_29_97 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_228_48_187 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_233_34_242 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_23_17_37 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_249_251_79 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_31_231_204 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_37_218_89 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_42_190_247 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_46_226_141 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_47_229_18 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_56_105_53 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_59_67_220 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_78_46_80 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_91_179_50 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_95_242_221 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_156_99_156_93 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_168_210_100_68 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_169_118_219_85 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_169_159_137_212 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_170_207_109_72 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_172_129_192_108 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_173_36_41_67 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_174_93_144_93 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_175_19_226_215 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_176_224_42_209 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_183_42_197_222 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_184_242_143_93 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_185_198_216_246 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_186_149_197_155 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_188_93_63_137 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_189_75_100_171 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_191_60_206_115 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_192_225_30_108 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_193_88_46_78 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_196_157_144_42 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_105_175_214 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_109_182_88 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_118_70_181 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_129_109_128 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_129_198_61 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_134_18_188 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_139_232_88 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_142_198_32 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_14_89_152 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_158_128_195 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_159_197_59 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_199_199_216 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_203_127_91 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_211_73_157 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_213_172_235 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_22_0_245 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_236_146_242 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_240_24_108 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_249_79_65 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_24_253_209 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_37_157_155 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_40_178_104 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_50_247_92 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_52_187_228 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_54_167_143 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_65_246_74 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_71_231_43 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_85_68_58 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_85_70_26 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_90_39_91 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_91_21_223 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_197_96_176_245 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_210_77_112_103 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_219_48_46_213 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_221_81_39_218 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_27_131_243_59 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_27_207_38_42 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_2_80_1_47 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_32_178_61_26 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_34_250_97_204 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_37_215_90_143 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_37_54_45_36 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_39_65_37_115 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_109_234_200 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_110_158_135 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_113_146_120 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_113_81_163 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_114_105_74 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_117_206_159 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_119_185_7 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_132_202_206 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_157_210_242 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_163_235_165 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_163_25_107 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_164_80_233 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_172_142_249 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_175_83_27 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_17_172_16 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_186_32_131 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_187_12_55 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_188_142_183 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_192_63_180 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_196_140_170 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_206_157_94 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_207_242_18 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_213_175_137 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_213_64_57 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_214_119_88 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_215_203_103 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_216_57_86 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_21_142_185 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_224_108_148 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_226_10_133 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_226_239_69 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_227_206_26 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_234_3_207 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_236_229_142 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_240_5_19 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_244_39_31 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_251_146_207 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_252_96_126 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_25_192_53 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_36_147_247 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_42_104_166 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_42_31_235 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_45_27_158 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_49_140_239 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_49_5_161 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_52_187_42 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_56_252_75 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_63_131_160 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_75_96_119 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_7_192_141 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_80_42_241 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_8_61_34 a ns1:NetworkNode ;
+    ns1:hasPort 37215 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_41_95_154_77 a ns1:NetworkNode ;
+    ns1:hasPort 52869 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_43_254_178_254 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_48_16_176_212 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_53_179_173_49 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_54_255_242_183 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_60_0_73_194 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_61_22_67_25 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_62_37_79_234 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_74_43_103_224 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_75_239_44_30 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_75_68_114_242 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_78_186_117_159 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_78_1_220_212 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_80_105_64_33 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_84_109_17_200 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_85_247_80_111 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_87_13_21_104 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_87_230_81_87 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_87_61_29_107 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_8_255_213_249 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_92_229_20_96 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_92_27_251_0 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_93_59_98_105 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_95_46_35_220 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_96_12_99_236 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
+ns1:IP_99_110_163_140 a ns1:NetworkNode ;
+    ns1:hasPort 8081 ;
+    ns1:hasProtocol "tcp" .
+
