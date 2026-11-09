@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/iot#"
+     xml:base="http://example.org/iot"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:iot="http://example.org/iot#">
+    
+    <owl:Ontology rdf:about="http://example.org/iot#"/>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="http://example.org/iot#Device"/>
+    <owl:Class rdf:about="http://example.org/iot#NetworkNode"/>
+    <owl:Class rdf:about="http://example.org/iot#CompromisedDevice">
+        <rdfs:subClassOf rdf:resource="http://example.org/iot#Device"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/iot#hasThreatLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="http://example.org/iot#connectsTo">
+        <rdfs:domain rdf:resource="http://example.org/iot#Device"/>
+        <rdfs:range rdf:resource="http://example.org/iot#NetworkNode"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/iot#isTargetedBy">
+        <owl:inverseOf rdf:resource="http://example.org/iot#connectsTo"/>
+        <rdfs:domain rdf:resource="http://example.org/iot#NetworkNode"/>
+        <rdfs:range rdf:resource="http://example.org/iot#Device"/>
+    </owl:ObjectProperty>
+
+    <!-- Data Properties -->
+    <owl:DatatypeProperty rdf:about="http://example.org/iot#hasPort">
+        <rdfs:domain rdf:resource="http://example.org/iot#NetworkNode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/iot#hasProtocol">
+        <rdfs:domain rdf:resource="http://example.org/iot#NetworkNode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/iot#hasThreatLabel">
+        <rdfs:domain rdf:resource="http://example.org/iot#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+</rdf:RDF>
