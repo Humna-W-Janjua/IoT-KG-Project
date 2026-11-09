@@ -55,3 +55,22 @@ WHERE {
     ?sourceDevice iot:hasThreatLabel "Okiru" ;
                   iot:connectsTo ?destinationNode .
 }
+
+#q7
+PREFIX iot: <http://example.org/iot#>
+SELECT ?compromisedDevice
+WHERE {
+    ?compromisedDevice a iot:CompromisedDevice .
+}
+
+#q8
+PREFIX iot: <http://example.org/iot#>
+SELECT ?sourceDevice ?intermediateNode ?targetPort ?threatLabel
+WHERE {
+    ?sourceDevice iot:connectsTo ?intermediateNode ;
+                  iot:hasThreatLabel ?threatLabel .
+    ?intermediateNode iot:hasPort ?targetPort .
+}
+LIMIT 20
+
+
