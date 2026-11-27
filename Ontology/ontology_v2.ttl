@@ -1,0 +1,96 @@
+@prefix iot: <http://example.org/iot#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iot:BenignConnection a owl:Class ;
+    rdfs:subClassOf iot:NetworkConnection .
+
+iot:MaliciousConnection a owl:Class ;
+    rdfs:comment "A connection classified as malicious by an explicit reasoning rule or validated assertion." ;
+    rdfs:subClassOf iot:NetworkConnection .
+
+iot:MultiHopInference a owl:Class ;
+    rdfs:label "Multi-Hop Inference" .
+
+iot:RepeatedDestinationPort a owl:Class ;
+    rdfs:label "Repeated Destination Port" ;
+    rdfs:comment "A destination port targeted by two or more connections." ;
+    rdfs:subClassOf iot:Port .
+
+iot:ThreatAssociatedPort a owl:Class ;
+    rdfs:label "Threat Associated Port" ;
+    rdfs:comment "A destination port targeted by at least one malicious connection." ;
+    rdfs:subClassOf iot:Port .
+
+iot:durationSeconds a owl:DatatypeProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range xsd:decimal .
+
+iot:evidenceConnection a owl:ObjectProperty .
+
+iot:hasDestinationPort a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:Port .
+
+iot:hasMaliciouslyContacted a owl:ObjectProperty ;
+    rdfs:domain iot:Device ;
+    rdfs:range iot:NetworkNode .
+
+iot:hasSourcePort a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:Port .
+
+iot:hasTrafficLabel a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:TrafficLabel .
+
+iot:inferredDestinationNode a owl:ObjectProperty .
+
+iot:inferredDestinationPort a owl:ObjectProperty .
+
+iot:inferredSourceDevice a owl:ObjectProperty .
+
+iot:inferredTrafficLabel a owl:ObjectProperty .
+
+iot:initiatedBy a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:Device .
+
+iot:ipAddress a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+iot:portNumber a owl:DatatypeProperty ;
+    rdfs:domain iot:Port ;
+    rdfs:range xsd:integer .
+
+iot:protocolName a owl:DatatypeProperty ;
+    rdfs:domain iot:Protocol ;
+    rdfs:range xsd:string .
+
+iot:targets a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:NetworkNode .
+
+iot:timestampUnix a owl:DatatypeProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range xsd:integer .
+
+iot:usesProtocol a owl:ObjectProperty ;
+    rdfs:domain iot:NetworkConnection ;
+    rdfs:range iot:Protocol .
+
+iot:TrafficLabel a owl:Class ;
+    rdfs:comment "A dataset label. This class includes both malicious labels and Benign." .
+
+iot:Device a owl:Class .
+
+iot:NetworkNode a owl:Class .
+
+iot:Protocol a owl:Class .
+
+iot:Port a owl:Class .
+
+iot:NetworkConnection a owl:Class ;
+    rdfs:comment "Represents one individual connection record from the supplied sample dataset." .
+
