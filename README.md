@@ -32,3 +32,18 @@ IoT-KG-Project/
 ├── app.py                    # AEGIS-KG Streamlit cyber-SOC QA dashboard + SVG topology viewer
 ├── evaluate_10_cqs.py        # Automated 10-CQ evaluation script (Condition A vs. Condition B)
 └── README.md                 # Project documentation & setup guide
+
+
+
+# 1. Clone repository & install dependencies
+git clone [https://github.com/Humna-W-Janjua/IoT-KG-Project.git](https://github.com/Humna-W-Janjua/IoT-KG-Project.git)
+cd IoT-KG-Project
+pip install ollama streamlit rdflib SPARQLWrapper pandas
+
+# 2. Pull local LLM & start Ollama server (Terminal 1)
+ollama pull qwen2.5:3b
+ollama serve
+
+# 3. Launch AEGIS-KG Streamlit Console & run 10-CQ benchmark (Terminal 2)
+python -m streamlit run app.py
+python evaluate_10_cqs.py
